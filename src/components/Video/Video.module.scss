@@ -1,0 +1,70 @@
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 0;
+    position: relative;
+    max-width: 692px;
+    width: 692px;
+    // justify-content: flex-end;
+}
+.avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+// content
+.content-container {
+    padding-left: 16px;
+}
+// Content info
+.content-info {
+    position: relative;
+    // width: 692px;
+    justify-content: flex-start;
+}
+.text-info {
+    display: flex;
+    width: 642px;
+}
+.text-info {
+    &:hover .info-nickname {
+        text-decoration: underline;
+    }
+}
+.info-nickname {
+    font-size: 1.8rem;
+}
+.info-name {
+    padding-left: 4px;
+    font-size: 1.4rem;
+    line-height: 28px;
+}
+.button-content {
+    position: absolute;
+    padding: 2px 19px;
+    right: 36px;
+    top: 8px;
+}
+.content-text {
+    width: 510px;
+}
+.music {
+    display: block;
+}
+.music {
+    &:hover .music {
+        text-decoration: underline;
+    }
+}
+.icon {
+    font-size: 1.8rem;
+}
+.music-text {
+    padding-left: 6px;
+}
+// Content video
+// .content-video {
+// }
+// .vide-card {
+// }
